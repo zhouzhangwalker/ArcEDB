@@ -1,0 +1,15 @@
+add_executable(comparison_test comparison_test.cpp )
+
+target_link_libraries(comparison_test ARCEDB)
+
+add_executable(simd_comparison_test simd_comparison_test.cpp )
+
+target_link_libraries(simd_comparison_test ARCEDB)
+
+add_executable(time_series_queries_test time_series_queries_test.cpp )
+
+target_link_libraries(time_series_queries_test ARCEDB)
+
+add_executable(relational_queries_test relational_queries_test.cpp )
+
+target_link_libraries(relational_queries_test ARCEDB)
